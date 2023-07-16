@@ -9,6 +9,7 @@
     "sqlite-async": "^1.1.0"
   },
   "devDependencies": {
+    "eslint": "^8.45.0",
     "nodemon": "^2.0.4"
   },
   "engines": {
