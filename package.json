@@ -2,7 +2,8 @@
   "name": "nlw",
   "scripts": {
     "dev": "nodemon src/server.js",
-    "build": "docker build --tag datsproffys ."
+    "build": "docker build --tag datsproffys .",
+    "start": "docker run -it --expose 80 -p 80:80 datsproffys"
   },
   "dependencies": {
     "express": "^4.17.1",
